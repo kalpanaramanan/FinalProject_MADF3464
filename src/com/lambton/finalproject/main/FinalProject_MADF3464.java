@@ -62,6 +62,8 @@ public class FinalProject_MADF3464 {
                 CommissionBasedPartTime e = (CommissionBasedPartTime) arrayEmployee1;
                 System.out.println(e.toString());
             }
+            
+            //Commant from test-branch
             if (arrayEmployee1 instanceof FixedBasedPartTime) {
                 FixedBasedPartTime e = (FixedBasedPartTime) arrayEmployee1;
                 System.out.println(e.toString());

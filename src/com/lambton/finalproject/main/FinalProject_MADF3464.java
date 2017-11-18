@@ -67,6 +67,7 @@ public class FinalProject_MADF3464 {
                 System.out.println(e.toString());
             }
             
+            //Sample Comment
              if (arrayEmployee1 instanceof Intern) {
                 Intern e = (Intern) arrayEmployee1;
                 System.out.println("Earnings : "+employeeImpl.calculateEarnings(e));

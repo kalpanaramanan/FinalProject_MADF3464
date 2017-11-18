@@ -55,6 +55,7 @@ public class FinalProject_MADF3464 {
             if (arrayEmployee1.getClass() == Employee.class) {
                 Employee e = (Employee) arrayEmployee1;
                 System.out.println(e.toString());
+                
                 System.out.println(employeeImpl.calculateBirthYear(e));
             }
             if (arrayEmployee1 instanceof CommissionBasedPartTime) {
